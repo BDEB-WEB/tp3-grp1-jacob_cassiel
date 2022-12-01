@@ -1,4 +1,4 @@
-body 
+
     
         
     
@@ -39,4 +39,10 @@ body
         font-size:15px;
         font-style: italic,thin;
     }
-!!!!!!
+    h2.right{
+        text-align: right;
+    }
+
+
+
+
