@@ -1,9 +1,7 @@
 h1 {
-
     font-family: verdana, sans-serif;
     font-style: italic, bold;
     font-size: 32px;
-
 }
 
 h2 {
@@ -12,27 +10,25 @@ h2 {
     font-size: 28px;
 }
 
-div.titreDefinitionAccueil {
-    font-family: verdana, sans-serif;
-    font-size: 25px;
-    text-align: center;
-    padding: 15px;
+h2.alignDroite {
+    text-align: right;
 }
 
+h2.alignCentre {
+    text-align: center;
+}
 
+body {
+    background-image: url(../images/backgroundImage_non_modifie.png);
+    color: #FAEFFF;
+}
 
 p {
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     text-align: justify;
-}
-
-.premierParagrapheDefinitionAccueil {
-    font-style: normal;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    text-align: justify;
+    opacity: 0.9;
 }
 
 p.Onglet {
@@ -48,12 +44,21 @@ figcaption {
     font-style: italic, thin;
 }
 
-h2.right {
-    text-align: right;
+/*Ce qui suit est spécifique à la page d'accueil*/
+
+div.titreDefinitionAccueil {
+    font-family: verdana, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding: 15px;
 }
 
-h2.center {
-    text-align: center;
+.premierParagrapheDefinitionAccueil {
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    opacity: 0.9;
 }
 
 section.accueil {
@@ -62,12 +67,10 @@ section.accueil {
     width: 60%;
     margin: 30px;
     padding: 40px;
-    background-color: lightgrey;
 }
 
 article.accueil {
     margin: 40px;
-    background-color: white;
     line-height: 2em;
 }
 
@@ -80,9 +83,19 @@ aside.accueil {
     padding-top: 0;
 }
 
-div.color {
-    background: linear-gradient(180deg, rgba(107, 31, 119, 0.54) 0%, rgba(33, 0, 50, 0.3564) 100%);
+div.sectionDefinition {
+    background: linear-gradient(180deg, rgba(185, 65, 204, 0.54) 0%, rgba(61, 6, 132, 0.54) 93.12%);
     padding: 20px;
     margin-top: 10px;
     line-height: 2em;
 }
+
+.centrerImageAccueil {
+    text-align: center;
+}
+
+/*Fin Page Accueil */
+
+/*Ce qui suit est spécifique à la page Historique*/
+
+/*...*/
