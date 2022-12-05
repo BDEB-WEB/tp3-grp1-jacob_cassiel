@@ -94,8 +94,50 @@ div.sectionDefinition {
     text-align: center;
 }
 
+.gaucheImageAccueil {
+    text-align: left;
+}
+
 /*Fin Page Accueil */
 
 /*Ce qui suit est spécifique à la page Historique*/
 
 /*...*/
+/* Fin page Historique */
+
+/*Ce qui suit est specifique a la page Actualite*/
+
+div.main {
+    width: 90%;
+}
+
+div.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.text {
+    width: 40%;
+    line-height: 2em;
+    padding-right: 75px;
+}
+
+section.text2 {
+    width: 40%;
+    line-height: 2em;
+    padding-left: 75px;
+}
+
+div.couleurDeSection {
+    background: linear-gradient(180deg, rgba(185, 65, 204, 0.54) 0%, rgba(61, 6, 132, 0.54) 93.12%);
+    padding: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+img.border {
+    border: 2px solid white;
+}
+
+/* Fin page Actualité */
