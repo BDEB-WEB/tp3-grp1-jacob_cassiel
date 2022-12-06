@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body 
     
         
@@ -17,6 +18,14 @@ body
         font-family: verdana, sans-serif;
         font-style: bold;
         font-size: 28px;
+    }
+    p.sous-titre
+    {
+        color: rgb(250,239,255);
+        font-family: verdana, sans-serif;
+        font-style: italic;
+        font-size: 21px;
+
     }
     p
     {
@@ -39,3 +48,209 @@ body
         font-size:15px;
         font-style: italic,thin;
     }
+=======
+h1 {
+    font-family: verdana, sans-serif;
+    font-style: italic, bold;
+    font-size: 32px;
+}
+
+h2 {
+    font-family: verdana, sans-serif;
+    font-style: bold;
+    font-size: 28px;
+}
+
+h2.alignDroite {
+    text-align: right;
+}
+
+h2.alignCentre {
+    text-align: center;
+}
+
+body {
+    background-image: url(../images/backgroundImage_non_modifie.png);
+    color: #FAEFFF;
+}
+
+p {
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    opacity: 0.9;
+}
+
+p.Onglet {
+    color: rgb(250, 239, 255);
+    font-family: arial, sans-serif;
+    font-style: bold;
+    font-size: 19px;
+}
+
+figcaption {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-style: italic, thin;
+}
+
+/*Ce qui suit est spécifique à la page d'accueil*/
+
+div.titreDefinitionAccueil {
+    font-family: verdana, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding: 15px;
+}
+
+.premierParagrapheDefinitionAccueil {
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    opacity: 0.9;
+}
+
+section.accueil {
+    box-sizing: border-box;
+    float: left;
+    width: 60%;
+    margin: 30px;
+    padding: 40px;
+}
+
+article.accueil {
+    margin: 40px;
+    line-height: 2em;
+}
+
+aside.accueil {
+    box-sizing: border-box;
+    float: left;
+    width: 34%;
+    height: auto;
+    margin: 10px;
+    padding-top: 0;
+}
+
+div.sectionDefinition {
+    background: linear-gradient(180deg, rgba(185, 65, 204, 0.54) 0%, rgba(61, 6, 132, 0.54) 93.12%);
+    padding: 20px;
+    margin-top: 10px;
+    line-height: 2em;
+}
+
+.centrerImageAccueil {
+    text-align: center;
+}
+
+.gaucheImageAccueil {
+    text-align: left;
+}
+
+img.borderAccueil
+{
+    border: 2px solid white;
+}
+/*Fin Page Accueil */
+
+/*Ce qui suit est spécifique à la page Historique*/
+
+h1.titreHisto {
+    color: rgb(250,239,255);
+    font-family: verdana, sans-serif;
+    font-style: italic, bold;
+    font-size: 36px;
+}
+
+p.paragrapheHisto
+{   color: rgb(250,239,255);
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;    
+}
+
+p.sousTitreHisto
+{
+    color: rgb(250,239,255);
+    font-family: verdana, sans-serif;
+    font-style: italic;
+    font-size: 21px;
+}
+
+/* Fin page Historique */
+
+/*Ce qui suit est specifique a la page Actualite*/
+
+div.main {
+    width: 90%;
+}
+
+div.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.text {
+    width: 40%;
+    line-height: 2em;
+    padding-right: 75px;
+}
+
+section.text2 {
+    width: 40%;
+    line-height: 2em;
+    padding-left: 75px;
+}
+
+div.couleurDeSection {
+    background: linear-gradient(180deg, rgba(185, 65, 204, 0.54) 0%, rgba(61, 6, 132, 0.54) 93.12%);
+    padding: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+img.border {
+    border: 2px solid white;
+}
+
+/* Fin page Actualité */
+
+/* Ce qui suit est specifique a la page A propos */
+
+div.pageApropos {
+    background: linear-gradient(180deg, rgba(185, 65, 204, 0.54) 0%, rgba(61, 6, 132, 0.54) 93.12%);
+    padding: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+div.pageAproposTexte {
+    line-height: 2.5em;
+    text-align: justify;
+}
+
+div.pageAproposTexte2 {
+    line-height: 2.5em;
+    text-align: justify;
+}
+
+.centrerTexte {
+    text-align: center;
+}
+
+.centrerDiv {
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+}
+
+/* Fin page A propos */
+
+/* Ce qui suit est specifique a la page de Contact */
+
+/* Fin page Contact */
+
+>>>>>>> main
