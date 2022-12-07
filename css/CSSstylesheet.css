@@ -9,15 +9,12 @@ body
     {
         color: rgb(250,239,255);
         font-family: verdana, sans-serif;
-        font-style: italic, bold;
-      
-        
     }
     h2
     {
         font-family: verdana, sans-serif;
         font-style: bold;
-        font-size: 28px;
+        
     }
     p.sous-titre
     {
@@ -134,6 +131,12 @@ aside.accueil {
     padding-top: 0;
 }
 
+h1.accueil
+{
+    color: rgb(250,239,255);
+    font-family: verdana, sans-serif;
+}
+
 div.sectionDefinition {
     background: linear-gradient(180deg, rgba(185, 65, 204, 0.54) 0%, rgba(61, 6, 132, 0.54) 93.12%);
     padding: 20px;
@@ -160,6 +163,7 @@ img.borderAccueil
 h1.titreHisto {
     color: rgb(250,239,255);
     font-family: verdana, sans-serif;
+    text-align: center;
     
 }
 
@@ -254,6 +258,8 @@ div.pageAproposTexte2 {
 /* Fin page A propos */
 
 /* Ce qui suit est specifique a la page de Contact */
+/* TextBGHaut */
+
 
 /* Fin page Contact */
 
