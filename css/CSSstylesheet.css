@@ -185,7 +185,7 @@ padding: 10px;
 } 
 
 .tableauCouleurHisto {
-background: linear-gradient(180deg, rgba(185, 65, 204, 0.54) 0%, rgba(61, 6, 132, 0.54) 93.12%);
+background: linear-gradient(180deg, rgba(185, 65, 204, 0.54) 0%, rgba(93, 19, 143, 0.54) 93.12%);
 padding: 30px;
 padding-top: 10px;
 padding-bottom: 10px;
@@ -195,7 +195,7 @@ line-height: 2em;
 }
 
 .tableauCouleurHisto2 {
-    background: linear-gradient(180deg, rgba(185, 65, 204, 0.54) 0%, rgba(61, 6, 132, 0.54) 93.12%);
+    background: linear-gradient(180deg, rgba(93, 19, 143, 0.54) 0%, rgba(45, 5, 99, 0.54) 93.12%);
     padding: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
