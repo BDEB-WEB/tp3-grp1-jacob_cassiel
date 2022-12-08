@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 body 
     
         
@@ -45,7 +45,7 @@ body
         font-size:15px;
         font-style: italic,thin;
     }
-=======
+/*===========*/
 h1 {
     font-family: verdana, sans-serif;
     font-style: italic, bold;
@@ -67,7 +67,8 @@ h2.alignCentre {
 }
 
 body {
-    background-image: url(../images/backgroundImage_non_modifie.png);
+    /*background-image: url(../images/backgroundImage_non_modifie.png);*/
+    background-color: black;
     color: #FAEFFF;
 }
 
@@ -164,50 +165,44 @@ h1.titreHisto {
     color: rgb(250,239,255);
     font-family: verdana, sans-serif;
     text-align: center;
-    
 }
 
-p.sousTitreHisto
-{
-    color: rgb(250,239,255);
-    font-family: verdana, sans-serif;
-    font-style: italic;
+div.centrerParHisto {
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+}
+
+p.sousTitreHisto {
     font-size: 21px;
+    font-style: italic;
 }
 
-div.histoSize
-{
-position: ;
-width: 35%;
-
-}
-div.histoColour{
-background: linear-gradient(180deg, rgba(185, 65, 204, 0.54) 0%, rgba(61, 6, 132, 0.54) 93.12%);
-padding: 30px;
-padding-top: 10px;
-padding-bottom: 10px;
-
-}
-.textPosi
-{
-    margin:;
-
-
-}
-div.textHisto
-{
-    
+div.delimiterPageHisto {
+    margin: auto;
     width: 90%;
-    line-height: 2em;
-    padding-right: 75px;
+    padding: 10px;
+} 
 
+div.tableauCouleurHisto {
+    background: linear-gradient(180deg, rgba(185, 65, 204, 0.54) 0%, rgba(61, 6, 132, 0.54) 93.12%);
+    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 35%;
+    line-height: 2em;
 }
-iframe
-{
-    
+
+div.histoSectionCouleur {
+    width: 35%;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+iframe {
     margin-left: 37%;
-    float:;
 }
+
 /* Fin page Historique */
 
 /*Ce qui suit est specifique a la page Actualite*/
@@ -286,6 +281,7 @@ h1.contact
     color: rgb(250,239,255);
     font-family: verdana, sans-serif;
 }
+/*
  input.nom
 {
     width: 30%;
@@ -340,7 +336,7 @@ padding: 10px;
 padding-top: 10px;
 padding-bottom: 10px;
 }
-
+*/
 button
 {
     background: linear-gradient(180deg, #5D2079 0%, rgba(110, 28, 149, 0.38) 100%);
@@ -352,10 +348,10 @@ button
  font-style:bolder;
  color: rgb(250,239,255);
 }
+
 /* VectorHisto */
 
 
 
 /* Fin page Contact */
 
->>>>>>> main
