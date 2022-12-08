@@ -167,7 +167,7 @@ h1.titreHisto {
     text-align: center;
 }
 
-div.centrerParHisto {
+.centrerParHisto {
     margin: auto;
     width: 70%;
     padding: 10px;
@@ -178,29 +178,49 @@ p.sousTitreHisto {
     font-style: italic;
 }
 
-div.delimiterPageHisto {
+.delimiterPageHisto {
     margin: auto;
     width: 90%;
     padding: 10px;
 } 
 
-div.tableauCouleurHisto {
+.tableauCouleurHisto {
     background: linear-gradient(180deg, rgba(185, 65, 204, 0.54) 0%, rgba(61, 6, 132, 0.54) 93.12%);
     padding: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    width: 35%;
+    margin: 0;
+    width: 50%;
     line-height: 2em;
 }
 
-div.histoSectionCouleur {
-    width: 35%;
-    margin-left: 50px;
-    margin-top: 30px;
+.pageHistoContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-iframe {
-    margin-left: 37%;
+.pageHistoContainer2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+image.pageHisto {
+    margin-left: 2em;
+}
+
+video.pageHisto {
+    margin-left: 2em;
+}
+
+iframe.pageHisto {
+    margin-left: 2em;
+}
+
+img.borderHisto {
+    border: 2px solid white;
 }
 
 /* Fin page Historique */
