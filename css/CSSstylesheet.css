@@ -241,7 +241,8 @@ div.couleurDeSection {
     padding-bottom: 20px;
 }
 
-img.border {
+img.border 
+{
     border: 2px solid white;
 }
 
@@ -280,6 +281,11 @@ div.pageAproposTexte2 {
 
 /* Ce qui suit est specifique a la page de Contact */
 /* TextBGHaut */
+h1.contact
+{
+    color: rgb(250,239,255);
+    font-family: verdana, sans-serif;
+}
  input.nom
 {
     width: 30%;
@@ -313,8 +319,8 @@ input.courriel
 input.commentaire
 {
     width: 35%;
-    padding: 60px 20px;
-    margin: 8px 0px;
+    padding: 12px 20px;
+    height: 100px;
     box-sizing: border-box;
     font-family:Arial, Helvetica, sans-serif ;
     font-size: 18px;
@@ -334,6 +340,7 @@ padding: 10px;
 padding-top: 10px;
 padding-bottom: 10px;
 }
+
 button
 {
     background: linear-gradient(180deg, #5D2079 0%, rgba(110, 28, 149, 0.38) 100%);
