@@ -5,222 +5,224 @@ body
     
         
     
-    h1
-    {
-        color: rgb(250,239,255);
-        font-family: verdana, sans-serif;
-    }
-    h2
-    {
-        font-family: verdana, sans-serif;
-        font-style: bold;
-        
-    }
-    p.sous-titre
-    {
-        color: rgb(250,239,255);
-        font-family: verdana, sans-serif;
-        font-style: italic;
-        font-size: 21px;
-
-    }
-    p
-    {
-        color: rgb(250,239,255);
-        font-style: normal;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 18px;
-        
-    }
-    p.Onglet
-    {
-        color: rgb(250,239,255);
-        font-family: arial, sans-serif ;
-        font-style: bold;
-        font-size: 19px;
-    }
-    figcaption
-    {
-        font-family:Arial, sans-serif;
-        font-size:15px;
-        font-style: italic,thin;
-    }
-/*===========*/
-h1 {
+h1
+{
+    color: rgb(250,239,255);
     font-family: verdana, sans-serif;
-    font-style: italic, bold;
-    font-size: 32px;
 }
-
-h2 {
+h2
+{
     font-family: verdana, sans-serif;
     font-style: bold;
-    font-size: 28px;
+    
 }
+p.sous-titre
+{
+    color: rgb(250,239,255);
+    font-family: verdana, sans-serif;
+    font-style: italic;
+    font-size: 21px;
 
-h2.alignDroite {
-    text-align: right;
 }
-
-h2.alignCentre {
-    text-align: center;
-}
-
-body {
-    /*background-image: url(../images/backgroundImage_non_modifie.png);*/
-    background-color: black;
-    color: #FAEFFF;
-}
-
-p {
+p
+{
+    color: rgb(250,239,255);
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    text-align: justify;
-    opacity: 0.9;
+    
 }
-
-p.Onglet {
-    color: rgb(250, 239, 255);
-    font-family: arial, sans-serif;
+p.Onglet
+{
+    color: rgb(250,239,255);
+    font-family: arial, sans-serif ;
     font-style: bold;
     font-size: 19px;
 }
+figcaption
+{
+    font-family:Arial, sans-serif;
+    font-size:15px;
+    font-style: italic,thin;
+}
+/*===========*/
+h1 {
+font-family: verdana, sans-serif;
+font-style: italic, bold;
+font-size: 32px;
+}
+
+h2 {
+font-family: verdana, sans-serif;
+font-style: bold;
+font-size: 28px;
+}
+
+h2.alignDroite {
+text-align: right;
+}
+
+h2.alignCentre {
+text-align: center;
+}
+
+body.second {
+background-color: black;
+}
+body.premier
+{
+background-image: url(../images/background.png);
+}
+p {
+font-style: normal;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+text-align: justify;
+opacity: 0.9;
+}
+
+p.Onglet {
+color: rgb(250, 239, 255);
+font-family: arial, sans-serif;
+font-style: bold;
+font-size: 19px;
+}
 
 figcaption {
-    font-family: Arial, sans-serif;
-    font-size: 15px;
-    font-style: italic, thin;
+font-family: Arial, sans-serif;
+font-size: 15px;
+font-style: italic, thin;
 }
 
 /*Ce qui suit est spécifique à la page d'accueil*/
 
 div.titreDefinitionAccueil {
-    font-family: verdana, sans-serif;
-    font-size: 25px;
-    text-align: center;
-    padding: 15px;
+font-family: verdana, sans-serif;
+font-size: 25px;
+text-align: center;
+padding: 15px;
 }
 
 .premierParagrapheDefinitionAccueil {
-    font-style: normal;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    text-align: justify;
-    opacity: 0.9;
+font-style: normal;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+text-align: justify;
+opacity: 0.9;
+color: rgb(250,239,255);
 }
 
 section.accueil {
-    box-sizing: border-box;
-    float: left;
-    width: 60%;
-    margin: 30px;
-    padding: 40px;
+box-sizing: border-box;
+float: left;
+width: 60%;
+margin: 30px;
+padding: 40px;
 }
 
 article.accueil {
-    margin: 40px;
-    line-height: 2em;
+margin: 40px;
+line-height: 2em;
 }
 
 aside.accueil {
-    box-sizing: border-box;
-    float: left;
-    width: 34%;
-    height: auto;
-    margin: 10px;
-    padding-top: 0;
+box-sizing: border-box;
+float: left;
+width: 34%;
+height: auto;
+margin: 10px;
+padding-top: 0;
 }
 
 h1.accueil
 {
-    color: rgb(250,239,255);
-    font-family: verdana, sans-serif;
+color: rgb(250,239,255);
+font-family: verdana, sans-serif;
 }
 
 div.sectionDefinition {
-    background: linear-gradient(180deg, rgba(185, 65, 204, 0.54) 0%, rgba(61, 6, 132, 0.54) 93.12%);
-    padding: 20px;
-    margin-top: 10px;
-    line-height: 2em;
+background: linear-gradient(180deg, rgba(185, 65, 204, 0.54) 0%, rgba(61, 6, 132, 0.54) 93.12%);
+padding: 20px;
+margin-top: 10px;
+line-height: 2em;
 }
 
 .centrerImageAccueil {
-    text-align: center;
+text-align: center;
 }
 
 .gaucheImageAccueil {
-    text-align: left;
+text-align: left;
 }
 
 img.borderAccueil
 {
-    border: 2px solid white;
+border: 2px solid white;
 }
 /*Fin Page Accueil */
 
 /*Ce qui suit est spécifique à la page Historique*/
 
 h1.titreHisto {
-    color: rgb(250,239,255);
-    font-family: verdana, sans-serif;
-    text-align: center;
+color: rgb(250,239,255);
+font-family: verdana, sans-serif;
+text-align: center;
 }
 
 .centrerParHisto {
-    margin: auto;
-    width: 70%;
-    padding: 10px;
+margin: auto;
+width: 70%;
+padding: 10px;
 }
 
 p.sousTitreHisto {
-    font-size: 21px;
-    font-style: italic;
+font-size: 21px;
+font-style: italic;
 }
 
 .delimiterPageHisto {
-    margin: auto;
-    width: 90%;
-    padding: 10px;
+margin: auto;
+width: 90%;
+padding: 10px;
 } 
 
 .tableauCouleurHisto {
-    background: linear-gradient(180deg, rgba(185, 65, 204, 0.54) 0%, rgba(61, 6, 132, 0.54) 93.12%);
-    padding: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 0;
-    width: 50%;
-    line-height: 2em;
+background: linear-gradient(180deg, rgba(185, 65, 204, 0.54) 0%, rgba(61, 6, 132, 0.54) 93.12%);
+padding: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
+margin: 0;
+width: 50%;
+line-height: 2em;
 }
 
 .pageHistoContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 .pageHistoContainer2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 30px;
 }
 
 image.pageHisto {
-    margin-left: 2em;
+margin-left: 2em;
 }
 
 video.pageHisto {
-    margin-left: 2em;
+margin-left: 2em;
 }
 
 iframe.pageHisto {
-    margin-left: 2em;
+margin-left: 2em;
 }
 
 img.borderHisto {
-    border: 2px solid white;
+border: 2px solid white;
 }
 
 /* Fin page Historique */
@@ -228,37 +230,37 @@ img.borderHisto {
 /*Ce qui suit est specifique a la page Actualite*/
 
 div.main {
-    width: 90%;
+width: 90%;
 }
 
 div.container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 section.text {
-    width: 40%;
-    line-height: 2em;
-    padding-right: 75px;
+width: 40%;
+line-height: 2em;
+padding-right: 75px;
 }
 
 section.text2 {
-    width: 40%;
-    line-height: 2em;
-    padding-left: 75px;
+width: 40%;
+line-height: 2em;
+padding-left: 75px;
 }
 
 div.couleurDeSection {
-    background: linear-gradient(180deg, rgba(185, 65, 204, 0.54) 0%, rgba(61, 6, 132, 0.54) 93.12%);
-    padding: 60px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+background: linear-gradient(180deg, rgba(185, 65, 204, 0.54) 0%, rgba(61, 6, 132, 0.54) 93.12%);
+padding: 60px;
+padding-top: 20px;
+padding-bottom: 20px;
 }
 
 img.border 
 {
-    border: 2px solid white;
+border: 2px solid white;
 }
 
 /* Fin page Actualité */
@@ -266,30 +268,30 @@ img.border
 /* Ce qui suit est specifique a la page A propos */
 
 div.pageApropos {
-    background: linear-gradient(180deg, rgba(185, 65, 204, 0.54) 0%, rgba(61, 6, 132, 0.54) 93.12%);
-    padding: 60px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+background: linear-gradient(180deg, rgba(185, 65, 204, 0.54) 0%, rgba(61, 6, 132, 0.54) 93.12%);
+padding: 60px;
+padding-top: 10px;
+padding-bottom: 10px;
 }
 
 div.pageAproposTexte {
-    line-height: 2.5em;
-    text-align: justify;
+line-height: 2.5em;
+text-align: justify;
 }
 
 div.pageAproposTexte2 {
-    line-height: 2.5em;
-    text-align: justify;
+line-height: 2.5em;
+text-align: justify;
 }
 
 .centrerTexte {
-    text-align: center;
+text-align: center;
 }
 
 .centrerDiv {
-    margin: auto;
-    width: 70%;
-    padding: 10px;
+margin: auto;
+width: 70%;
+padding: 10px;
 }
 
 /* Fin page A propos */
@@ -298,65 +300,133 @@ div.pageAproposTexte2 {
 /* TextBGHaut */
 h1.contact
 {
-    color: rgb(250,239,255);
-    font-family: verdana, sans-serif;
+color: rgb(250,239,255);
+font-family: verdana, sans-serif;
+text-align: center;
 }
-/*
- input.nom
+
+.BGcolor
 {
-    width: 30%;
-    padding: 12px 20px;
-    margin: 8px 0px;
-    box-sizing: border-box;
-    font-family:Arial, Helvetica, sans-serif ;
-    font-size: 18px;
-    font-style: italic;
+background-color: rgba(14, 0, 21, 1);
+
+}
+
+.header
+{
+padding: 30px;
+background-color: rgb(13, 0, 19);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 25px;
+text-align: center;
+
+}
+input[type="text"].nom
+{
+background-color: rgba(121, 59, 134, 0.61);
+width: 70%;
+padding: 12px 20px;
+margin: 8px 0px;
+box-sizing: border-box;
+font-family:Arial, Helvetica, sans-serif ;
+font-size: 18px;
+font-style: italic;
+
 }
 input.prenom
 {
-    width: 30%;
-    padding: 12px 20px;
-    margin: 8px 0px;
-    box-sizing: border-box;
-    font-family:Arial, Helvetica, sans-serif ;
-    font-size: 18px;
-    font-style: italic;
+background-color: rgba(121, 59, 134, 0.61);
+width: 85%;
+padding: 12px 20px;
+margin: 8px 0px;
+box-sizing: border-box;
+font-family:Arial, Helvetica, sans-serif ;
+font-size: 18px;
+font-style: italic;
+
 }
 input.courriel
 {
-    width: 40%;
-    padding: 12px 20px;
-    margin: 8px 0px;
-    box-sizing: border-box;
-    font-family:Arial, Helvetica, sans-serif ;
-    font-size: 18px;
-    font-style: italic;
+background-color: rgba(121, 59, 134, 0.61);
+width: 85%;
+padding: 12px 20px;
+margin: 8px 0px;
+box-sizing: border-box;
+font-family:Arial, Helvetica, sans-serif ;
+font-size: 18px;
+font-style: italic;
+
 }
-input.commentaire
+textarea.commentaire
 {
-    width: 35%;
-    padding: 12px 20px;
-    height: 100px;
-    box-sizing: border-box;
-    font-family:Arial, Helvetica, sans-serif ;
-    font-size: 18px;
-    font-style: italic;
-   
+background-color: rgba(121, 59, 134, 0.61);
+width: 85%;
+padding: 12px 20px;
+height: 200px;
+box-sizing: border-box;
+font-family:Arial, Helvetica, sans-serif ;
+font-size: 18px;
+font-style: italic;
+margin-top: 8%;
+
+
 }
 label
 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
-    color: (250,239,255);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
+color: rgb(250,239,255);
+display: block;
 }
 div.contactField
 {
-    background: linear-gradient(180deg, rgba(185, 65, 204, 0.54) 0%, rgba(61, 6, 132, 0.54) 93.12%);
-padding: 10px;
-padding-top: 10px;
+
+
+padding-left:70px ;
+padding-right:40px;
+padding-top: 30px;
 padding-bottom: 10px;
+width: 800px;
+height: 784px;
+left: 120px;
+top: 191px;
+
+background: linear-gradient(180deg, rgba(107, 31, 119, 0.54) 0%, rgba(33, 0, 50, 0.3564) 100%);
+border-radius: 4px;
+
 }
-*/
+div.rightside
+{
+
+
+float: left;
+margin-top: 15%;
+margin-left: 10%;
+
+}
+div.center
+{
+
+margin: auto;
+width: 90%;
+padding: 10px;
+}
+div.leftside
+{
+float: left;
+}
+div.contactinfo
+{
+
+width: 500px;
+height: 400px;
+
+text-align: center;
+
+background: linear-gradient(180deg, rgba(107, 31, 119, 0.54) 0%, rgba(33, 0, 50, 0.3564) 100%);
+border-radius: 4px;
+
+}
+
 button
 {
     background: linear-gradient(180deg, #5D2079 0%, rgba(110, 28, 149, 0.38) 100%);
