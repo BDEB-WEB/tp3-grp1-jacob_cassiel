@@ -280,8 +280,76 @@ div.pageAproposTexte2 {
 
 /* Ce qui suit est specifique a la page de Contact */
 /* TextBGHaut */
+ input.nom
+{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 18px;
+    font-style: italic;
+}
+input.prenom
+{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 18px;
+    font-style: italic;
+}
+input.courriel
+{
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 18px;
+    font-style: italic;
+}
+input.commentaire
+{
+    width: 35%;
+    padding: 60px 20px;
+    margin: 8px 0px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 18px;
+    font-style: italic;
+   
+}
+label
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: (250,239,255);
+}
+div.contactField
+{
+    background: linear-gradient(180deg, rgba(185, 65, 204, 0.54) 0%, rgba(61, 6, 132, 0.54) 93.12%);
+padding: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+button
+{
+    background: linear-gradient(180deg, #5D2079 0%, rgba(110, 28, 149, 0.38) 100%);
+    
+    box-sizing: border-box;
+
+   
 
 
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+ font-size: 22px;
+ font-family: Arial, Helvetica, sans-serif;
+ font-style:bolder;
+ color: rgb(250,239,255);
+}
 /* Fin page Contact */
 
 >>>>>>> main
