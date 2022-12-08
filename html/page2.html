@@ -9,7 +9,34 @@
 
 </head>
 <body class="premier">
-      
+    <div class="header">
+        <a class="onglet" href="../index.html"> Accueil</a>
+        <a class="onglet" href="../html/page2.html"> Historique</a>
+        <a class="onglet" href="../html/pages3.html"> Actualité</a>
+        <a class="onglet" href="../html/page_a_propos.html"> À propos</a>
+        <a class="onglet" href="../html/page_contact.html"> Contact</a>  
+        </div>
+      <script>
+        var myVideo = document.getElementById("video1");
+        function faireDemarrer(){
+            if (myVideo.paused)
+            myVideo.play();
+            else
+            myVideo.pause();
+        }
+        function faireGrossirr()
+        {
+            myVideo.width = 780;
+        }
+        function fairediminuer()
+        {
+            myVideo.width = 320;
+        }
+        function faireNormal()
+        {
+            myVideo.width = 560;
+        }
+      </script>
     <h1 class="titreHisto"> <i>Les premiers Metroidvania:</i></h1>
     
     <div class="centrerParHisto">
@@ -57,9 +84,15 @@
                 Sa popularité est si grande que Metroid est, depuis ce temps, placé aux cotés des jeux de “Legend of Zelda” et “Mario Bros”.</p>
             </div>
 
+            <div style="text-align:center">
+                <button onmouseover="faireDemarrer ();">>Démarrer/pause</button>
+                <button onmouseout="faireGrossirr ();">>grossir</button>
+                <button onclick="fairediminuer ();">>Diminuer</button>
+                <button onmousedown="faireNormal ();">>Normal</button>
             <aside class="pageHistoContainer">
                 <video style="border:2px inset #ddd" class= "pageHisto" width="560px" height="315px" controls> <source src="../video/super_Metroid_bande_anonce.mp4" type="video/mp4"> </video>
             </aside>
+            </div>
 
             <aside class="pageHistoContainer2">
                 <image class= "pageHisto borderHisto" src="../images/SSsuperMetroid.jpg" width="530px" height="315px" alt="missing"> </image>
