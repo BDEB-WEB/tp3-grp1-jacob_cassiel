@@ -311,15 +311,8 @@ background-color: rgba(14, 0, 21, 1);
 
 }
 
-.header
-{
-padding: 30px;
-background-color: rgb(13, 0, 19);
-font-family: Arial, Helvetica, sans-serif;
-font-size: 25px;
-text-align: center;
 
-}
+
 input[type="text"].nom
 {
 background-color: rgba(121, 59, 134, 0.61);
@@ -390,7 +383,7 @@ height: 784px;
 left: 120px;
 top: 191px;
 
-background: linear-gradient(180deg, rgba(107, 31, 119, 0.54) 0%, rgba(33, 0, 50, 0.3564) 100%);
+background: linear-gradient(180deg, rgba(185, 65, 204, 0.54) 0%, rgba(61, 6, 132, 0.54) 93.12%);
 border-radius: 4px;
 
 }
@@ -421,12 +414,26 @@ width: 500px;
 height: 400px;
 
 text-align: center;
-
-background: linear-gradient(180deg, rgba(107, 31, 119, 0.54) 0%, rgba(33, 0, 50, 0.3564) 100%);
+font-size: 19px;
+font-weight: bold;
+background: linear-gradient(180deg, rgba(185, 65, 204, 0.54) 0%, rgba(61, 6, 132, 0.54) 93.12%);
 border-radius: 4px;
+padding-top: 20px;
+}
+p.contact
+{
+    text-align: center;
+font-size: 19px;
+font-weight: bold;
+padding: 8px;
 
 }
-
+p.titrecontact
+{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
 button
 {
     background: linear-gradient(180deg, #5D2079 0%, rgba(110, 28, 149, 0.38) 100%);
@@ -439,6 +446,41 @@ button
  color: rgb(250,239,255);
 }
 
+/*ceci est le header*/
+a.onglet
+{
+    background-color: #1e0124;
+  border: none;
+  border-radius: 4px;
+  color: rgb(250,239,255);
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 24px;
+  margin: 4px px;
+  opacity: 60%;
+  transition: 0.3s;
+   
+
+}
+a.onglet:hover
+{
+    opacity: 5;
+}
+
+.header
+{
+padding: 30px;
+
+
+background-color:  rgba(54, 3, 65, 0.84) ;
+
+font-family: Arial, Helvetica, sans-serif;
+font-size: 25px;
+text-align: center;
+padding-bottom: 30px;
+­}
+
+/*fin du header*/
 /* VectorHisto */
 
 
