@@ -1,51 +1,49 @@
 
-body 
+ 
     
         
     
         
     
-h1
-{
+h1 {
     color: rgb(250,239,255);
     font-family: verdana, sans-serif;
 }
-h2
-{
+
+h2 {
     font-family: verdana, sans-serif;
     font-style: bold;
-    
 }
-p.sous-titre
-{
+
+p.sous-titre {
     color: rgb(250,239,255);
     font-family: verdana, sans-serif;
     font-style: italic;
     font-size: 21px;
-
 }
-p
-{
+
+p {
     color: rgb(250,239,255);
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    
 }
-p.Onglet
-{
+
+p.Onglet {
     color: rgb(250,239,255);
     font-family: arial, sans-serif ;
     font-style: bold;
     font-size: 19px;
 }
-figcaption
-{
+
+figcaption {
     font-family:Arial, sans-serif;
     font-size:15px;
     font-style: italic,thin;
 }
+
 /*===========*/
+
 h1 {
 font-family: verdana, sans-serif;
 font-style: italic, bold;
@@ -69,10 +67,11 @@ text-align: center;
 body.second {
 background-color: black;
 }
-body.premier
-{
+
+body.premier {
 background-image: url(../images/background.png);
 }
+
 p {
 font-style: normal;
 font-family: Arial, Helvetica, sans-serif;
@@ -134,8 +133,7 @@ margin: 10px;
 padding-top: 0;
 }
 
-h1.accueil
-{
+h1.accueil {
 color: rgb(250,239,255);
 font-family: verdana, sans-serif;
 }
@@ -155,8 +153,7 @@ text-align: center;
 text-align: left;
 }
 
-img.borderAccueil
-{
+img.borderAccueil {
 border: 2px solid white;
 }
 /*Fin Page Accueil */
@@ -298,23 +295,17 @@ padding: 10px;
 
 /* Ce qui suit est specifique a la page de Contact */
 /* TextBGHaut */
-h1.contact
-{
+h1.contact {
 color: rgb(250,239,255);
 font-family: verdana, sans-serif;
 text-align: center;
 }
 
-.BGcolor
-{
+.BGcolor {
 background-color: rgba(14, 0, 21, 1);
-
 }
 
-
-
-input[type="text"].nom
-{
+input[type="text"].nom {
 background-color: rgba(121, 59, 134, 0.61);
 width: 70%;
 padding: 12px 20px;
@@ -323,10 +314,9 @@ box-sizing: border-box;
 font-family:Arial, Helvetica, sans-serif ;
 font-size: 18px;
 font-style: italic;
-
 }
-input.prenom
-{
+
+input.prenom {
 background-color: rgba(121, 59, 134, 0.61);
 width: 85%;
 padding: 12px 20px;
@@ -335,10 +325,9 @@ box-sizing: border-box;
 font-family:Arial, Helvetica, sans-serif ;
 font-size: 18px;
 font-style: italic;
-
 }
-input.courriel
-{
+
+input.courriel {
 background-color: rgba(121, 59, 134, 0.61);
 width: 85%;
 padding: 12px 20px;
@@ -347,10 +336,9 @@ box-sizing: border-box;
 font-family:Arial, Helvetica, sans-serif ;
 font-size: 18px;
 font-style: italic;
-
 }
-textarea.commentaire
-{
+
+textarea.commentaire {
 background-color: rgba(121, 59, 134, 0.61);
 width: 85%;
 padding: 12px 20px;
@@ -360,19 +348,16 @@ font-family:Arial, Helvetica, sans-serif ;
 font-size: 18px;
 font-style: italic;
 margin-top: 8%;
-
-
 }
-label
-{
+
+label {
 font-family: Arial, Helvetica, sans-serif;
 font-size: 18px;
 color: rgb(250,239,255);
 display: block;
 }
-div.contactField
-{
 
+div.contactField {
 
 padding-left:70px ;
 padding-right:40px;
@@ -382,108 +367,90 @@ width: 800px;
 height: 784px;
 left: 120px;
 top: 191px;
-
 background: linear-gradient(180deg, rgba(185, 65, 204, 0.54) 0%, rgba(61, 6, 132, 0.54) 93.12%);
 border-radius: 4px;
 
 }
-div.rightside
-{
 
-
+div.rightside {
 float: left;
 margin-top: 15%;
 margin-left: 10%;
-
 }
-div.center
-{
 
+div.center {
 margin: auto;
 width: 90%;
 padding: 10px;
 }
-div.leftside
-{
-float: left;
-}
-div.contactinfo
-{
 
-width: 500px;
-height: 400px;
-
-text-align: center;
-font-size: 19px;
-font-weight: bold;
-background: linear-gradient(180deg, rgba(185, 65, 204, 0.54) 0%, rgba(61, 6, 132, 0.54) 93.12%);
-border-radius: 4px;
-padding-top: 20px;
+div.leftside {
+    float: left;
 }
-p.contact
-{
+
+div.contactinfo{
+    width: 500px;
+    height: 400px;
+
     text-align: center;
-font-size: 19px;
-font-weight: bold;
-padding: 8px;
-
+    font-size: 19px;
+    font-weight: bold;
+    background: linear-gradient(180deg, rgba(185, 65, 204, 0.54) 0%, rgba(61, 6, 132, 0.54) 93.12%);
+    border-radius: 4px;
+    padding-top: 20px;
 }
-p.titrecontact
-{
+
+p.contact {
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 8px;
+}
+
+p.titrecontact {
     text-align: center;
     font-size: 24px;
     font-weight: bold;
 }
-button
-{
+
+button {
     background: linear-gradient(180deg, #5D2079 0%, rgba(110, 28, 149, 0.38) 100%);
     box-sizing: border-box;
     border: 2px solid #FFFFFF;
     border-radius: 4px;
- font-size: 22px;
- font-family: Arial, Helvetica, sans-serif;
- font-style:bolder;
- color: rgb(250,239,255);
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:bolder;
+    color: rgb(250,239,255);
 }
 
 /*ceci est le header*/
-a.onglet
-{
+a.onglet {
     background-color: #1e0124;
-  border: none;
-  border-radius: 4px;
-  color: rgb(250,239,255);
-  padding: 16px 32px;
-  text-align: center;
-  font-size: 24px;
-  margin: 4px px;
-  opacity: 60%;
-  transition: 0.3s;
-   
-
+    border: none;
+    border-radius: 4px;
+    color: rgb(250,239,255);
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 24px;
+    margin: 4px px;
+    opacity: 60%;
+    transition: 0.3s;
 }
-a.onglet:hover
-{
+
+a.onglet:hover {
     opacity: 5;
 }
 
-.header
-{
-padding: 30px;
-
-
-background-color:  rgba(54, 3, 65, 0.84) ;
-
-font-family: Arial, Helvetica, sans-serif;
-font-size: 25px;
-text-align: center;
-padding-bottom: 30px;
-­}
+.header {
+    padding: 30px;
+    background-color:  rgba(54, 3, 65, 0.84) ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding-bottom: 30px;
+}
 
 /*fin du header*/
 /* VectorHisto */
-
-
-
 /* Fin page Contact */
-
