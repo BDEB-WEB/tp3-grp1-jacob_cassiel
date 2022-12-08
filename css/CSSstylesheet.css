@@ -179,14 +179,35 @@ div.histoSize
 {
 position: ;
 width: 35%;
+
 }
 div.histoColour{
 background: linear-gradient(180deg, rgba(185, 65, 204, 0.54) 0%, rgba(61, 6, 132, 0.54) 93.12%);
-padding: 60px;
-padding-top: 20px;
-padding-bottom: 20px;
-}
+padding: 30px;
+padding-top: 10px;
+padding-bottom: 10px;
 
+}
+.textPosi
+{
+    margin:;
+
+
+}
+div.textHisto
+{
+    
+    width: 90%;
+    line-height: 2em;
+    padding-right: 75px;
+
+}
+iframe
+{
+    
+    margin-left: 37%;
+    float: top;
+}
 /* Fin page Historique */
 
 /*Ce qui suit est specifique a la page Actualite*/
