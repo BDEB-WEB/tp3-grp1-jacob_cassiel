@@ -37,6 +37,7 @@ p.Onglet {
 }
 
 figcaption {
+    color: rgb(250,239,255);
     font-family:Arial, sans-serif;
     font-size:15px;
     font-style: italic,thin;
