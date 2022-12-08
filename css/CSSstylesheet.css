@@ -337,12 +337,7 @@ padding-bottom: 10px;
 button
 {
     background: linear-gradient(180deg, #5D2079 0%, rgba(110, 28, 149, 0.38) 100%);
-    
     box-sizing: border-box;
-
-   
-
-
     border: 2px solid #FFFFFF;
     border-radius: 4px;
  font-size: 22px;
@@ -350,6 +345,10 @@ button
  font-style:bolder;
  color: rgb(250,239,255);
 }
+/* VectorHisto */
+
+
+
 /* Fin page Contact */
 
 >>>>>>> main
