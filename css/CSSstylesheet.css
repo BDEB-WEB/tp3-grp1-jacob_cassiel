@@ -17,8 +17,8 @@ p.sous-titre {
 
 p {
     color: rgb(250, 239, 255);
-    font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
     font-size: 18px;
 }
 
@@ -32,8 +32,8 @@ p.Onglet {
 figcaption {
     color: rgb(250, 239, 255);
     font-family: Arial, sans-serif;
-    font-size: 15px;
     font-style: italic, thin;
+    font-size: 15px;
 }
 
 /* Les variables qui suivent s'appliquent à toutes les pages.*/
@@ -42,7 +42,7 @@ body.premierBackground {
     background-image: url(../images/background.png);
 }
 
-body.secondBackground {
+body.deuxiemeBackground {
     background-color: black;
 }
 
@@ -91,16 +91,45 @@ figcaption {
     font-style: italic, thin;
 }
 
+/*Ce qui suit est spécifique à l'en tête*/
+
+a.onglet {
+    background-color: #1e0124;
+    border: none;
+    border-radius: 4px;
+    color: rgb(250, 239, 255);
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 24px;
+    margin: 4px;
+    opacity: 60%;
+    transition: 0.3s;
+}
+
+a.onglet:hover {
+    opacity: 5;
+}
+
+.header {
+    padding: 30px;
+    background-color: rgba(54, 3, 65, 0.84);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* Fin en-tête */
 /*Ce qui suit est spécifique à la page d'accueil*/
 
-div.titreDefinitionAccueil {
+div.titreQuestionAccueil {
+    color: rgb(250, 239, 255);
     font-family: verdana, sans-serif;
     font-size: 25px;
     text-align: center;
     padding: 15px;
 }
 
-.premierParagrapheDefinitionAccueil {
+.policeParagraphe {
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
@@ -109,7 +138,7 @@ div.titreDefinitionAccueil {
     color: rgb(250, 239, 255);
 }
 
-section.accueil {
+section.accueilPartieGauche {
     box-sizing: border-box;
     float: left;
     width: 60%;
@@ -117,12 +146,12 @@ section.accueil {
     padding: 40px;
 }
 
-article.accueil {
+article.interieurPartieGauche {
     margin: 40px;
     line-height: 2em;
 }
 
-aside.accueil {
+aside.accueilPartieDroite {
     box-sizing: border-box;
     float: left;
     width: 34%;
@@ -131,12 +160,7 @@ aside.accueil {
     padding-top: 0;
 }
 
-h1.accueil {
-    color: rgb(250, 239, 255);
-    font-family: verdana, sans-serif;
-}
-
-div.sectionDefinition {
+div.couleurSectionDefinition {
     background: linear-gradient(180deg, rgba(185, 65, 204, 0.54) 0%, rgba(61, 6, 132, 0.54) 93.12%);
     padding: 20px;
     margin-top: 10px;
@@ -156,7 +180,6 @@ img.borderAccueil {
 }
 
 /*Fin Page Accueil */
-
 /*Ce qui suit est spécifique à la page Historique*/
 
 h1.titreHisto {
@@ -233,36 +256,27 @@ img.borderHisto {
 }
 
 /* Fin page Historique */
-
 /*Ce qui suit est specifique a la page Actualite*/
 
-div.main {
+div.divisionPrincipale {
     width: 90%;
 }
 
-div.container {
+div.separateur {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-section.text {
+section.texte {
     width: 40%;
     line-height: 2em;
     padding-right: 75px;
 }
 
-section.text2 {
-    width: 40%;
-    line-height: 2em;
-    padding-left: 75px;
-}
-
 div.couleurDeSection {
     background: linear-gradient(180deg, rgba(185, 65, 204, 0.54) 0%, rgba(61, 6, 132, 0.54) 93.12%);
-    padding: 60px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 60px;
 }
 
 img.border {
@@ -270,22 +284,16 @@ img.border {
 }
 
 /* Fin page Actualité */
-
 /* Ce qui suit est specifique a la page A propos */
 
-div.pageApropos {
+div.SectionPageApropos {
     background: linear-gradient(180deg, rgba(185, 65, 204, 0.54) 0%, rgba(61, 6, 132, 0.54) 93.12%);
     padding: 60px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
-div.pageAproposTexte {
-    line-height: 2.5em;
-    text-align: justify;
-}
-
-div.pageAproposTexte2 {
+div.textePageApropos {
     line-height: 2.5em;
     text-align: justify;
 }
@@ -301,8 +309,8 @@ div.pageAproposTexte2 {
 }
 
 /* Fin page A propos */
-
 /* Ce qui suit est specifique a la page de Contact */
+
 /* TextBGHaut */
 h1.contact {
     color: rgb(250, 239, 255);
@@ -431,33 +439,4 @@ button {
     color: rgb(250, 239, 255);
 }
 
-/*ceci est le header*/
-a.onglet {
-    background-color: #1e0124;
-    border: none;
-    border-radius: 4px;
-    color: rgb(250, 239, 255);
-    padding: 16px 32px;
-    text-align: center;
-    font-size: 24px;
-    margin: 4px px;
-    opacity: 60%;
-    transition: 0.3s;
-}
-
-a.onglet:hover {
-    opacity: 5;
-}
-
-.header {
-    padding: 30px;
-    background-color: rgba(54, 3, 65, 0.84);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    text-align: center;
-    padding-bottom: 30px;
-}
-
-/*fin du header*/
-/* VectorHisto */
-/* Fin page Contact */
+/* Fin page A propos */
