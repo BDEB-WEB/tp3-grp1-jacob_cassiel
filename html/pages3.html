@@ -60,13 +60,43 @@
                     </div>
                 </section>
 
-                <figure>
-                    <iframe style="border:2px inset #ddd" width="480" height="270"
-                        src="https://www.youtube.com/embed/hg25ONutphA" title="Hollow Knight Review" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                    <figcaption>Hollow Knight, Développé par Team Cherry</figcaption>
-                </figure>
+                <div>
+                    <section style="margin-left: 1.5em;">
+                        <button class="buttonActualite" onclick="faireDemarrer ()">Démarrer/pause</button>
+                        <button class="buttonActualite" onclick="faireGrossir ()">Grossir</button>
+                        <button class="buttonActualite" onclick="faireDiminuer ()">Diminuer</button>
+                        <button class="buttonActualite" onclick="faireNormal ()">Normal</button>
+                    </section>
+
+                    <video id="video1" style="border:2px inset #ddd" class="pageHisto" width="560px" height="315px"
+                        controls>
+                        <source src="../video/Hollow Knight Review.mp4" type="video/mp4">
+                    </video>
+                    <figcaption style="margin-left: 1.5em;">Hollow Knight, développé par Team Cherry</figcaption>
+                </div>
+
+                <!-- fonctions des boutons -->
+                <script>
+                    var myVideo = document.getElementById("video1");
+                    function faireDemarrer() {
+                        if (myVideo.paused)
+                            myVideo.play();
+                        else
+                            myVideo.pause();
+                    }
+                    function faireGrossir() {
+                        myVideo.width = 800;
+                        myVideo.height = 500;
+                    }
+                    function faireDiminuer() {
+                        myVideo.width = 380;
+                        myVideo.height = 250;
+                    }
+                    function faireNormal() {
+                        myVideo.width = 560;
+                        myVideo.height = 315;
+                    }
+                </script>
 
             </div><br><br><br><br>
 

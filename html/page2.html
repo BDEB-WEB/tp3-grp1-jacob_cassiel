@@ -35,8 +35,7 @@
     </div> <br>
 
     <div class="delimiterPageHisto">
-        <section class="pageHistoContainer">
-
+        <div class="pageHistoContainer">
             <div class="tableauCouleurHisto">
                 <p class="sousTitreHisto">Super Metroid:</p>
 
@@ -74,52 +73,25 @@
                     Zelda” et “Mario Bros”.</p>
             </div>
 
-            <div style="text-align:center">
-                <button onclick="faireDemarrer ()">Démarrer/pause</button>
-                <button onclick="faireGrossir ()">Grossir</button>
-                <button onclick="faireDiminuer ()">Diminuer</button>
-                <button onclick="faireNormal ()">Normal</button>
+            <aside>
+                <iframe style="border:2px inset #ddd" width="400px" height="275px" class="pageHisto"
+                    src="https://www.youtube.com/embed/JqlbDJIPXwo"
+                    title="Super Metroid SNES Commercial - Retro Game Trailers" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </aside>
 
-                <aside class="pageHistoContainer">
-                    <video id="video1" style="border:2px inset #ddd" class="pageHisto" width="560px" height="315px"
-                        controls>
-                        <source src="../video/super_Metroid_bande_anonce.mp4" type="video/mp4">
-                    </video>
-                </aside>
-
-                <!-- fonctions des boutons -->
-                <script>
-                    var myVideo = document.getElementById("video1");
-                    function faireDemarrer() {
-                        if (myVideo.paused)
-                            myVideo.play();
-                        else
-                            myVideo.pause();
-                    }
-                    function faireGrossir() {
-                        myVideo.width = 700;
-                        myVideo.height = 400;
-                    }
-                    function faireDiminuer() {
-                        myVideo.width = 320;
-                    }
-                    function faireNormal() {
-                        myVideo.width = 560;
-                    }
-                </script>
-
-            </div>
-
-            <aside class="pageHistoContainer2">
-                <image class="pageHisto borderHisto" src="../images/SSsuperMetroid.jpg" width="530px" height="315px"
+            <aside>
+                <image class="borderHisto" src="../images/SSsuperMetroid.jpg" width="400px" height="275px"
                     alt="missing"> </image>
             </aside>
 
-        </section>
+        </div>
 
         <section class="pageHistoContainer">
 
-            <div class="tableauCouleurHisto2">
+            <div class="tableauCouleurHisto">
                 <p class="sousTitreHisto">Symphony of the Night:</p>
 
                 <p>Malgré la popularité des autres jeux de la franchise, la nouvelle formule qu’apporte “Symphony of the
@@ -148,16 +120,16 @@
                     silence de la pars de Konami.</p>
             </div>
 
-            <aside class="pageHistoContainer">
-                <iframe style="border:2px inset #ddd" class="pageHisto" width="560px" height="315px"
+            <aside>
+                <iframe style="border:2px inset #ddd" class="pageHisto" width="400px" height="275px"
                     src="https://www.youtube.com/embed/Rm2KKmud2MA" title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
             </aside>
 
-            <aside class="pageHistoContainer2">
-                <image class="pageHisto borderHisto" src="../images/SSsoNT.jpg" width="530px" height="315px"
-                    alt="missing"> </image>
+            <aside>
+                <image class="borderHisto" src="../images/SSsoNT.jpg" width="400px" height="275px" alt="missing">
+                </image>
             </aside>
 
         </section>

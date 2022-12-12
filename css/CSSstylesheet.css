@@ -210,21 +210,8 @@ p.sousTitreHisto {
     padding: 30px;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin: 0;
-    width: 50%;
     line-height: 2em;
 }
-
-.tableauCouleurHisto2 {
-    background: linear-gradient(180deg, rgba(93, 19, 143, 0.54) 0%, rgba(45, 5, 99, 0.54) 93.12%);
-    padding: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 0;
-    width: 50%;
-    line-height: 2em;
-}
-
 
 .pageHistoContainer {
     display: flex;
@@ -236,11 +223,6 @@ p.sousTitreHisto {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 30px;
-}
-
-image.pageHisto {
-    margin-left: 2em;
 }
 
 video.pageHisto {
@@ -248,6 +230,11 @@ video.pageHisto {
 }
 
 iframe.pageHisto {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+image.pageHisto {
     margin-left: 2em;
 }
 
@@ -271,7 +258,8 @@ div.separateur {
 section.texte {
     width: 40%;
     line-height: 2em;
-    padding-right: 75px;
+    padding-right: 15px;
+    margin-left: 3em;
 }
 
 div.couleurDeSection {
@@ -306,6 +294,18 @@ div.textePageApropos {
     margin: auto;
     width: 70%;
     padding: 10px;
+}
+
+.buttonActualite {
+    background: linear-gradient(180deg, #5D2079 0%, rgba(110, 28, 149, 0.38) 100%);
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bolder;
+    color: rgb(250, 239, 255);
+    margin-left: 0.5em;
+    margin-bottom: 0.2em;
 }
 
 /* Fin page A propos */
@@ -424,7 +424,7 @@ p.titrecontact {
     font-weight: bold;
 }
 
-button {
+.buttonContact {
     background: linear-gradient(180deg, #5D2079 0%, rgba(110, 28, 149, 0.38) 100%);
     box-sizing: border-box;
     border: 2px solid #FFFFFF;
