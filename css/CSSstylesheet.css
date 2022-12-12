@@ -320,6 +320,7 @@ input[type="text"].nom {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-style: italic;
+    color: #EE82EE;
 }
 
 input.prenom {
@@ -331,6 +332,7 @@ input.prenom {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-style: italic;
+    color: #EE82EE;
 }
 
 input.courriel {
@@ -342,6 +344,7 @@ input.courriel {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-style: italic;
+    color: #EE82EE;
 }
 
 textarea.commentaire {
@@ -352,8 +355,9 @@ textarea.commentaire {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    font-style: italic;
     margin: 15px 0px;
+    font-style: italic;
+    color: #EE82EE;
 }
 
 label {
@@ -367,38 +371,40 @@ div.contactField {
     padding-left: 70px;
     padding-right: 40px;
     padding-top: 30px;
-    padding-bottom: 10px;
-    height: 784px;
+    height: auto;
     background: linear-gradient(180deg, rgba(185, 65, 204, 0.54) 0%, rgba(61, 6, 132, 0.54) 93.12%);
     border-radius: 4px;
+    margin-bottom: 20px;
 }
 
 div.rightside {
+    box-sizing: border-box;
     float: left;
-    margin-top: 15%;
-    margin-left: 15%;
+    margin-top: 20%;
+    margin-left: 10%;
 }
 
-div.center {
+.centrerContact {
     margin: auto;
     width: 80%;
     padding: 10px;
 }
 
 div.leftside {
+    box-sizing: border-box;
     float: left;
 }
 
 div.contactinfo {
-    width: 500px;
-    height: 400px;
-
+    width: 400px;
+    height: auto;
     text-align: center;
     font-size: 19px;
     font-weight: bold;
     background: linear-gradient(180deg, rgba(185, 65, 204, 0.54) 0%, rgba(61, 6, 132, 0.54) 93.12%);
     border-radius: 4px;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 p.contact {
@@ -425,7 +431,19 @@ button {
     color: rgb(250, 239, 255);
     margin-right: 70px;
     margin-top: 8px;
+    margin-bottom: 20px;
 }
 
+::placeholder {
+    color: #a9a9a9;
+    opacity: 1;
+    /* Firefox */
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #a9a9a9;
+    opacity: 1;
+}
 
 /* Fin page Contact */
