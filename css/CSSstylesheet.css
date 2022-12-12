@@ -320,7 +320,7 @@ input[type="text"].nom {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-style: italic;
-    color: #EE82EE;
+    color: #d8aae3;
 }
 
 input.prenom {
@@ -332,7 +332,8 @@ input.prenom {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-style: italic;
-    color: #EE82EE;
+    color: #d8aae3;
+    ;
 }
 
 input.courriel {
@@ -344,7 +345,7 @@ input.courriel {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-style: italic;
-    color: #EE82EE;
+    color: #d8aae3;
 }
 
 textarea.commentaire {
@@ -357,7 +358,7 @@ textarea.commentaire {
     font-size: 18px;
     margin: 15px 0px;
     font-style: italic;
-    color: #EE82EE;
+    color: #d8aae3;
 }
 
 label {
@@ -380,11 +381,13 @@ div.contactField {
 div.rightside {
     box-sizing: border-box;
     float: left;
+    width: 30%;
     margin-top: 20%;
     margin-left: 10%;
 }
 
 .centrerContact {
+    box-sizing: border-box;
     margin: auto;
     width: 80%;
     padding: 10px;
@@ -393,6 +396,7 @@ div.rightside {
 div.leftside {
     box-sizing: border-box;
     float: left;
+    width: 60%;
 }
 
 div.contactinfo {
